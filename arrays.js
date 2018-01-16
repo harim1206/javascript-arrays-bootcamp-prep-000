@@ -9,6 +9,9 @@ function addElementToBeginningOfArray(arr,n){
 
 function destructivelyAddElementToBeginningOfArray(arr,n){
 
-  return arr.unshift(n)
+  /*we have arr
+  add element to beginning of array destructively meaning permanent change*/
+  arr.unshift(n)
+  return arr
 
 }
