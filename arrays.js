@@ -26,3 +26,9 @@ function destructivelyAddElementToEndOfArray(arr, n){
   arr.push(n)
   return arr
 }
+
+function accessElementInArray(arr,i){}
+function destructivelyRemoveElementFromBeginningOfArray(arr){}
+function destructivelyRemoveElementFromEndOfArray(arr){}
+funciton removeElementFromBeginningOfArray(arr){}
+funciton removeElementFromEndOfArray(arr){}
