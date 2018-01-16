@@ -15,3 +15,16 @@ function destructivelyAddElementToBeginningOfArray(arr,n){
   return arr
 
 }
+
+function addElementToEndOfArray(arr, n){
+  var newArr=[]
+  newArr=[...arr,n]
+  return newArr
+}
+
+function destructivelyAddElementToEndOfArray(arr, n){
+  arr.push(n)
+  return arr
+}
+
+
